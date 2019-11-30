@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow >
+        <TextView android:text="品名" android:layout_span="2" />
+        <TextView android:text="数量"/>
+    </TableRow>
+    
+    <TableRow >
+        <CheckBox />
+        <TextView android:text="りんご" />
+        <EditText />
+    </TableRow>
+
+    <TableRow >
+        <CheckBox />
+        <TextView android:text="ぶどう" />
+        <EditText />
+    </TableRow>
+
+    <TableRow >
+        <CheckBox />
+        <TextView android:text="愛媛さんじゃなく実は和歌山産ミカン" />
+        <EditText />
+    </TableRow>
+</TableLayout>

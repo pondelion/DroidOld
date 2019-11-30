@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/layout"
+	android:background="@drawable/android_wifichat1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:orientation="vertical" >
+        
+
+        <ImageView
+            android:id="@+id/imageViewFront"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="description"
+            android:scaleType="fitXY"
+            android:src="@drawable/front" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="description"
+            android:scaleType="fitXY"
+            android:src="@drawable/back"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</RelativeLayout>
